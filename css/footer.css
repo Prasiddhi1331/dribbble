@@ -103,7 +103,7 @@
 
 @media screen and (min-width: 0px) and (max-width: 430px){
   .link-cont {
-    display: none;
+    /* display: none; */
   }
   .footer-main {
     display: flex;
@@ -125,7 +125,7 @@
     left: 40px;
   }
   .link-column {
-    display: none;
+    /* display: none; */
   }
   .tagline{
     text-align: center;
