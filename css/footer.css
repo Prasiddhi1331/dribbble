@@ -48,7 +48,7 @@
   gap: 20px;
 }
 .link-column {
-  width: 50%;
+  /* width: 50%; */
 }
 .link-heading{
   font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -99,4 +99,21 @@
   height: 24px;
   margin-top:8px ;
   margin-bottom: 8px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 430px){
+  .link-cont {
+    display: none;
+  }
+  .footer-main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container-large{
+    padding-left: 0px;
+  }
+  .footer-lower {
+    position: relative;
+    left: 30px
+  }
 }
