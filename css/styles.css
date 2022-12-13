@@ -1,0 +1,252 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1172px;
+    margin: auto;
+}
+
+.des {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    right: 10vw;
+}
+
+.des img{
+    width: 48px;
+}
+
+.des_text {
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.des_text h1 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-bottom: 0;
+}
+
+.clas {
+    
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.clas a {
+    text-decoration: none;
+    color: #4e3d3d;
+}
+
+.btn {
+    position: relative;
+    left: 18vw;
+}
+
+button {
+    margin: 10px;
+    width: 5vw;
+    height: 5vh;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.like {
+    background-color: #ea4c89;
+    color: white;
+}
+
+.main {
+    position: relative;
+    z-index: 1;
+    width: 80vw;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.text {
+    width: 100%;
+    margin: 28px 0;
+    font-family: "Haas Grot Text R Web","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.text a {
+    transition: color 200ms ease;
+    color: #ea4c89;
+    text-decoration: none;
+}
+.text h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+}
+.text p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+}
+.avatar_line {
+    width: 100%;
+    border: 1px solid #e7e7e9;
+}
+.ava_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user_name {
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 29px;
+    margin-top: 16px;
+    color: #0d0c22;
+}
+
+.user_bio {
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    max-width: 300px;
+    margin-top: 8px;
+    color: #3d3d4e;
+    text-align: center;
+}
+
+.profile {
+    margin-top: 16px;
+}
+
+.mess_btn {
+    position: relative;
+    height: 40px;
+    padding: 10px 16px;
+    border: none;
+    background: #ea4c89;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: white;
+    width: 120px;
+}
+
+.more {
+    width: 100%;
+    margin-top: 64px;
+}
+.more .more_head {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.more .more_head h4 {
+    margin-right: 16px;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: black;
+}
+.more ,.more_head a {
+    color: #ea4c89;
+    text-decoration: none;
+}
+
+.card {
+    display: flex;
+    margin-top: 16px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    padding: 40px;
+}
+.card img {
+    width: 20vw;
+    border: none;
+    border-radius: 10px;
+}
+
+.short_grid {
+    display: grid;
+    grid-gap: 36px;
+    list-style: none;
+}
+.shot {
+    display: flex;
+    position: relative;
+    grid-column: 1 / -1;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto 66px;
+    color: #6e6d7a;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.keyboard-button-container {
+    display: flex;
+    align-items: center;
+}
+.keyboard-button-icon {
+    width: 26px;
+    margin-right: 12px
+}
+
+@media screen and (min-width: 0px) and (max-width: 430px){
+    .btn {
+        display: none;
+    }
+    .text h1 {
+        font-size: 30px;
+    }
+    .text p {
+        font-size: 18px;
+        margin-left: 20px;
+    }
+    .avatar {
+        margin-top: 30px;
+    }
+    .more .more_head {
+        justify-content: space-evenly;
+    }
+    .card img {
+        width: 90vw;
+        margin: 10px;
+    }
+}
