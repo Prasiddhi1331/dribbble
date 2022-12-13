@@ -2,18 +2,20 @@
     padding:0px;
     margin:0px;
     position:fixed;
-    right:-130px;
+    right:-170px;
     top:230px;
     width:210px;
     z-index: 1100;
   }
   .sticky li{
     list-style-type:none;
-    background-color:#fff;
+    /* background-color:rgb(244, 18, 18); */
     color:#efefef;
+    /* border: none;
+    border-radius: 20px; */
     height:43px;
     padding:0px;
-    margin:0px 0px 1px 0px;
+    margin:5px 0px 1px 0px;
     -webkit-transition:all 0.25s ease-in-out;
     -moz-transition:all 0.25s ease-in-out;
     -o-transition:all 0.25s ease-in-out;
@@ -27,6 +29,8 @@
     float:left;
     margin:5px 4px;
     margin-right:5px;
+    border: none;
+    border-radius: 10px;
   }
   .sticky li p{
     padding-top:5px;

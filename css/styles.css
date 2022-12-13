@@ -204,7 +204,7 @@ button {
     padding: 40px;
 }
 .card img {
-    width: 20vw;
+    width: 250px;
     border: none;
     border-radius: 10px;
 }
@@ -258,5 +258,8 @@ button {
     .card img {
         width: 90vw;
         margin: 10px;
+    }
+    .sticky-container {
+        display: none;
     }
 }

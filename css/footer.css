@@ -1,0 +1,102 @@
+#footer{
+  flex-shrink: 0;
+}
+.site-footer {
+  background: #fafafb;
+    color: #3d3d4e;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.container-large {
+  padding-right: 72px;
+  padding-left: 72px;
+  /* width: 100%; */
+}
+
+.site-footer .footer-main {
+  display: flex;
+  border-bottom: 1px solid #e7e7e9;
+  flex-direction: row;
+  padding: 72px 0;
+  justify-content: center;
+  gap: 20px;
+}
+
+.dribbble {
+  width: 104px;
+}
+.tagline {
+  max-width: 256px;
+  margin: 20px 0;
+}
+.social-link {
+  width: 105px;
+    /* height: 18px; */
+    margin-top: 8px;
+    margin-right: 14px;
+}
+.social-link a{
+  color: #3d3d4e;
+}
+
+.site-footer .link-cont {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+.link-column {
+  width: 50%;
+}
+.link-heading{
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    /* margin-top: 32px; */
+    color: #0d0c22;
+}
+.link {
+  display: block;
+    margin-top: 16px;
+    color: #3d3d4e;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
+}
+.footer-lower{
+  display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 32px 0;
+    color: #6e6d7a;
+}
+.total{
+  display: flex;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    -ms-flex-align: center;
+    align-items: center;
+
+}
+.shots-count{
+  color: #0d0c22;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.dribbble-ball {
+  width: 24px;
+  height: 24px;
+  margin-top:8px ;
+  margin-bottom: 8px;
+}
