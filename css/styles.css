@@ -65,6 +65,10 @@ button {
     border-radius: 10px;
     font-size: 1rem;
     font-weight: 600;
+    cursor: pointer;
+}
+.save:hover{
+    background-color: #e4e3ea;
 }
 .like {
     background-color: #ea4c89;
@@ -78,6 +82,7 @@ button {
     height: 100%;
     overflow: hidden;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .text {
@@ -89,6 +94,9 @@ button {
     transition: color 200ms ease;
     color: #ea4c89;
     text-decoration: none;
+}
+.text a:hover{
+    color: #f17ca9;
 }
 .text h1 {
     font-size: 32px;
@@ -182,6 +190,9 @@ button {
     color: #ea4c89;
     text-decoration: none;
 }
+.more a:hover{
+    color: #f17ca9;
+}
 
 .card {
     display: flex;
@@ -190,7 +201,6 @@ button {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    
     padding: 40px;
 }
 .card img {
